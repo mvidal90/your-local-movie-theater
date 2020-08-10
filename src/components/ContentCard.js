@@ -7,7 +7,7 @@ let n=0;
 export const ContentCard = ({ title, urlFull, descr, vote}) => {
     return (
         <div className="card">
-            <img src={ process.env.PUBLIC_URL+urlFull } alt={ title } />
+            <img src={ require('.'+urlFull) } alt={ title } />
             <h4> { title } </h4>
             <Stars vote={ vote/2 }/>
             <DescriptionMovie 
