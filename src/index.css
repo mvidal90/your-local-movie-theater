@@ -1,13 +1,134 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    font-family: Helvetica, Arial, sans-serif
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background-color: #222222;
+    margin: 0;
+}
+
+button {
+    background: none;
+    border: none;
+    color: grey;
+    font-size: 30px;
+}
+
+button:hover,
+button:hover ~ button {
+    color: orange;
+}
+
+button:focus,
+button:focus ~ button {
+    color: orange;
+}
+
+.clasification {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+h2{
+    color: white;
+    font-size: 35px;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+h4{
+    padding: 0 10px;
+}
+
+h5{
+    color: white;
+    font-size: 25px;
+}
+
+.header{
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    text-align: center;
+    width: 100%;
+}
+
+input{
+    background-color: rgb(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 1%;
+    width: 75%;
+}
+input::placeholder{
+    color: white;
+}
+
+.card{
+    align-content: center;
+    background-color: black;
+    border: 1px solid grey;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px 1px rgba(255, 255, 255, 0.2);
+    color: white;
+    height: min-content;
+    margin: 10px 10px 10px 0;
+    text-align: center;
+    width: min-content;
+}
+.card:hover{
+    margin-top: 0;
+}
+
+.card-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 100px;
+}
+
+.description{
+    display: none;
+    padding: 10px;
+    text-align: left;
+}
+
+.more, .less{
+    color: rgb(190, 140, 236);
+    display: block;
+    font-size: small;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+.more:hover, .less:hover{
+    color: blueviolet;
+}
+
+.selectStars{
+    background-color: rgb(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 30%;
+    padding: 25px;
+    text-align: center;
+    width: 30%;
+}
+
+.stars{
+    color: orange;
+}
+
+.titleStars{
+    font-size: 25px;
+    margin-top: 10px;
 }
