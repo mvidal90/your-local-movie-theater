@@ -21,7 +21,7 @@ export const MoviesGridItem = ( { title, url, poster, urlFull, popularity, descr
             title={ title }
             descr={ descr }
             vote={ vote }
-            urlFull= { urlFull }
+            urlFull= { '.'+urlFull }
         />
     )
 }
