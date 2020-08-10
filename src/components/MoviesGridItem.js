@@ -1,6 +1,6 @@
 import React from 'react';
 import { ContentCard } from './ContentCard';
-import noimage from '../media/noimage.57aef36f.png';
+import noimage from './media/noimage.57aef36f.png';
 
 
 export const MoviesGridItem = ( { title, url, poster, urlFull, popularity, descr, vote} ) => {
@@ -10,7 +10,7 @@ export const MoviesGridItem = ( { title, url, poster, urlFull, popularity, descr
     }
 
     if (poster === null) {
-        urlFull= '../media/noimage.57aef36f.png';
+        urlFull= noimage;
     } else{
         urlFull = url+poster;
     }
