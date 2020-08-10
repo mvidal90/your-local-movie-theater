@@ -10,7 +10,7 @@ export const MoviesGridItem = ( { title, url, poster, urlFull, popularity, descr
     }
 
     if (poster === null) {
-        urlFull= noimage;
+        urlFull= '../media/noimage.57aef36f.png';
     } else{
         urlFull = url+poster;
     }
