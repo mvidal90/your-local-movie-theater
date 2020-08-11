@@ -40,7 +40,7 @@ input::placeholder{color:#fff}
 
 .less:hover,.more:hover{color:#8a2be2}
 
-.selectStars{background-color:rgba(0,0,0,.5);border:none;border-radius:20px;box-shadow:3px 3px 3px 1px rgba(0,0,0,.2);margin-left:30%;padding:25px;text-align:center;width:30%}
+.selectStars{background-color:rgba(0,0,0,.5);border:none;border-radius:20px;box-shadow:3px 3px 3px 1px rgba(0,0,0,.2);margin-left:33%;padding:25px;text-align:center;width:33%}
 
 .stars{color:orange}
 
