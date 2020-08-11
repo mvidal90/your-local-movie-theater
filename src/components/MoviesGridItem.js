@@ -1,6 +1,6 @@
 import React from 'react';
 import { ContentCard } from './ContentCard';
-import noimage from '../docs/static/media/noimage.57aef36f.png'
+import noimage from '../images/noimage.png'
 
 export const MoviesGridItem = ( { title, url, poster, urlFull, popularity, descr, vote} ) => {
 
